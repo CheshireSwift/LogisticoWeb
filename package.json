@@ -1,0 +1,8 @@
+{
+  "name": "Logistico",
+  "version": "0.0.1",
+  "dependencies": {
+    "craftyjs": "^0.6.3",
+    "lodash": "^3.9.3"
+  }
+}
