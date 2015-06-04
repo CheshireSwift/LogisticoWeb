@@ -4,5 +4,8 @@
   "dependencies": {
     "craftyjs": "^0.6.3",
     "lodash": "^3.9.3"
+  },
+  "scripts": {
+    "bundle": "browserify main.js -o dist/app.js"
   }
 }
