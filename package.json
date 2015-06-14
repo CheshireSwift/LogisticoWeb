@@ -6,6 +6,7 @@
     "lodash": "^3.9.3"
   },
   "scripts": {
-    "bundle": "browserify main.js -o dist/app.js"
+    "bundle": "browserify main.js -o dist/app.js",
+    "build": "rm -rf dist & mkdir dist & cp index.html dist/index.html & browserify main.js -o dist/main.js"
   }
 }
