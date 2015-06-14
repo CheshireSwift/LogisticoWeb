@@ -29,7 +29,11 @@ var logistico = function() {
     function selectionLayer() {
         var mouseDown;
         var selectionBox = Crafty.e('2D, DOM, Color')
-            .attr({x: 20, y: 20, w: 0, h: 0, z: 1000});
+            .attr({
+              x: -1, y: -1, w: -1, h: -1,
+              z: 1000,
+              alpha: 0.5
+            });
 
         var mouseLayer = Crafty.e('2D, DOM, Mouse')
             .attr({x: Crafty.viewport._x, y: Crafty.viewport._y, w: Crafty.viewport._width, h: Crafty.viewport._height})
