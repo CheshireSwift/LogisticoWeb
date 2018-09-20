@@ -2,8 +2,8 @@
   "name": "Logistico",
   "version": "0.0.1",
   "dependencies": {
-    "craftyjs": "^0.6.3",
-    "lodash": "^3.9.3"
+    "craftyjs": "^0.9.0",
+    "lodash": "^4.17.11"
   },
   "scripts": {
     "build": "rm -rf dist & mkdir dist & cp index.html dist/index.html & browserify main.js -o dist/main.js"
